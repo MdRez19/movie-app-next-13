@@ -18,7 +18,7 @@ export default async function MovieDetail({ params }) {
     console.log(res)
     return (
         <div>
-            <div>
+            <div className="w-2/4">
                 <h2 className="text-2xl">{res.title}</h2>
                 <h2 className="text-lx">{res.release_date}</h2>
                 <h2>Runtime: {res.runtime} minutes</h2>
